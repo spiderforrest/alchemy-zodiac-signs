@@ -2,10 +2,11 @@ import React from 'react';
 
 function ZodiacCard(arg) {
   return (
-    <div className="zodiac" id={arg.key}>
-      <img className="zodiac" src={`./images/${arg.name}.png`}></img>
-      <h3 className="zodiac">{arg.symbol}</h3>
-      <p className="zodiac">{arg.dates}</p>
+    <div className="zodiac">
+      <h3 className="name">{arg.name.toUpperCase()}</h3>
+      <img className="img" src={`./images/${arg.name}.png`}></img>
+      <p className="date">{arg.dates}</p>
+      <h4 className="symbol">{arg.symbol}</h4>
     </div>
   );
 }
