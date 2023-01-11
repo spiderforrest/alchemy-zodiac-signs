@@ -1,3 +1,7 @@
 .Main {
   background-size: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 800px;
 }
