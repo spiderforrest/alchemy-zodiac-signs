@@ -1,4 +1,5 @@
 import React from 'react';
+import './ZodiacCard.css';
 
 function ZodiacCard(arg) {
   return (
